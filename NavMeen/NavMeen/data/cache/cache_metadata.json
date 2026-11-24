@@ -1,0 +1,64 @@
+{
+  "source_pfz": "INCOIS PFZ Advisory + OpenCV Processed Satellite Tile",
+  "source_weather": "IMD / NOAA Marine Forecast Layer",
+  "issue_timestamp_utc": "2026-11-01T20:46:49.864749+00:00",
+  "issue_epoch": 1793566009.864749,
+  "validity_hours": 12.0,
+  "geographic_coverage": "8.00\u00b0N\u20138.36\u00b0N, 77.50\u00b0E\u201377.86\u00b0E (40 km x 40 km Coastal Grid)",
+  "layer_registry": [
+    {
+      "Layer": "Sea-Surface Temperature (SST)",
+      "Source": "NOAA / INCOIS",
+      "Units": "\u00b0C",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    },
+    {
+      "Layer": "Chlorophyll-a & PFZ Image",
+      "Source": "INCOIS + OpenCV",
+      "Units": "mg/m\u00b3",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    },
+    {
+      "Layer": "Sea-Surface Salinity & SSH",
+      "Source": "NOAA Ocean Service",
+      "Units": "PSU / m",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    },
+    {
+      "Layer": "Ocean Surface Currents",
+      "Source": "INCOIS HyCOM",
+      "Units": "knots",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    },
+    {
+      "Layer": "Wind & Wave Forecast",
+      "Source": "IMD Marine Advisory",
+      "Units": "knots / m",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    },
+    {
+      "Layer": "Navigational Chart & Reefs",
+      "Source": "Offline Coastal Tile",
+      "Units": "Grid Mask",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "STATIC_VALID"
+    },
+    {
+      "Layer": "Fish Market Landing Prices",
+      "Source": "Local Harbor Auction",
+      "Units": "INR / kg",
+      "Timestamp": "2026-11-01T20:46:49.864749+00:00",
+      "Quality": "VERIFIED"
+    }
+  ],
+  "prices_inr_per_kg": {
+    "Indian Mackerel": 180.0,
+    "Yellowfin Tuna": 320.0,
+    "Oil Sardine": 110.0
+  }
+}

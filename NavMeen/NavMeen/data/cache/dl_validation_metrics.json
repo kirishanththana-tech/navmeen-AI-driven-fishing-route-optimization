@@ -1,0 +1,23 @@
+{
+  "Indian Mackerel": {
+    "Precision": 0.907,
+    "Recall": 0.839,
+    "F1_Score": 0.872,
+    "ROC_AUC": 0.975,
+    "Brier_Calibration_Loss": 0.06
+  },
+  "Yellowfin Tuna": {
+    "Precision": 0.822,
+    "Recall": 0.871,
+    "F1_Score": 0.846,
+    "ROC_AUC": 0.985,
+    "Brier_Calibration_Loss": 0.034
+  },
+  "Oil Sardine": {
+    "Precision": 0.878,
+    "Recall": 0.873,
+    "F1_Score": 0.875,
+    "ROC_AUC": 0.98,
+    "Brier_Calibration_Loss": 0.051
+  }
+}
